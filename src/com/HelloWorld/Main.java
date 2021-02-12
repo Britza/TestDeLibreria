@@ -1,8 +1,12 @@
 package com.HelloWorld;
 
+import Libreria.MisMetodos;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        //System.out.println(MisMetodos.saludo("Hola"));
+        String aux = MisMetodos.saludo("Hola");
+        System.out.println(aux);
+
     }
 }
