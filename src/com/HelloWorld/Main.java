@@ -7,6 +7,9 @@ public class Main {
         //System.out.println(MisMetodos.saludo("Hola"));
         String aux = MisMetodos.saludo("Hola");
         System.out.println(aux);
+        String ad = MisMetodos.adios("chau");
+        System.out.println(ad);
+
 
     }
 }
