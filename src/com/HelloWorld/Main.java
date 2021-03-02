@@ -1,14 +1,19 @@
 package com.HelloWorld;
 
+import Libreria.Consola;
 import Libreria.MisMetodos;
+import Libreria.Ventana;
+
 public class Main {
 
     public static void main(String[] args) {
-        //System.out.println(MisMetodos.saludo("Hola"));
-        String aux = MisMetodos.saludo("Hola");
-        System.out.println(aux);
-        String ad = MisMetodos.adios("chau");
-        System.out.println(ad);
+
+
+        Consola consola =new Consola("Hola");
+        consola.visualizar();
+
+        Ventana ventana = new Ventana("Adios");
+        ventana.visualizar();
 
 
     }
